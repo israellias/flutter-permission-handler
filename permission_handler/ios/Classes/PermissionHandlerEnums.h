@@ -44,7 +44,7 @@
 // Info.plist: NSSpeechRecognitionUsageDescription
 // dart: PermissionGroup.speech
 #ifndef PERMISSION_SPEECH_RECOGNIZER
-    #define PERMISSION_SPEECH_RECOGNIZER 1
+    #define PERMISSION_SPEECH_RECOGNIZER 0
 #endif
 
 // ios: PermissionGroupPhotos
@@ -71,7 +71,7 @@
 // Info.plist: [NSAppleMusicUsageDescription, kTCCServiceMediaLibrary]
 // dart: PermissionGroup.mediaLibrary
 #ifndef PERMISSION_MEDIA_LIBRARY
-    #define PERMISSION_MEDIA_LIBRARY 1
+    #define PERMISSION_MEDIA_LIBRARY 0
 #endif
 
 // ios: PermissionGroupSensors
